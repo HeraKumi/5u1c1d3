@@ -1,0 +1,21 @@
+{
+  "name": "5u1c1d3",
+  "version": "0.0.1",
+  "description": "5u1c1d3",
+  "main": "app.js",
+  "author": {
+    "name": "herakumi"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "nodemon ./dist/app.ts",
+    "dev": "ts-node ./lib/app.ts",
+    "prod": "npm run build && npm run start" 
+  },
+  "devDependencies": {
+    "@types/node": "^8.0.14",
+    "nodemon": "^1.18.3",
+    "ts-node": "^7.0.1",
+    "typescript": "^3.0.1"
+  }
+}
