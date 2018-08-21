@@ -10,12 +10,15 @@
     "build": "tsc",
     "start": "nodemon ./dist/app.ts",
     "dev": "ts-node ./lib/app.ts",
-    "prod": "npm run build && npm run start" 
+    "prod": "npm run build && npm run start"
   },
   "devDependencies": {
     "@types/node": "^8.0.14",
     "nodemon": "^1.18.3",
     "ts-node": "^7.0.1",
     "typescript": "^3.0.1"
+  },
+  "dependencies": {
+    "@types/blessed": "^0.1.10"
   }
 }
